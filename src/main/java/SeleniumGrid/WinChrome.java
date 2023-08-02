@@ -24,12 +24,12 @@ public class WinChrome {
 		cap.setBrowserName("chrome");
 		cap.setPlatform(Platform.WIN10);
 		
-		String nodeURL = "http://192.168.1.3:19184/wd/hub";
+		String nodeURL = "http://192.168.1.3:16475/wd/hub";
 		
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mrufu\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		//driver = new RemoteWebDriver(new URL(nodeURL), cap);
-		driver = new ChromeDriver();
+		driver = new RemoteWebDriver(new URL(nodeURL), cap);
+		//driver = new ChromeDriver();
 	}
 	
 	@Test

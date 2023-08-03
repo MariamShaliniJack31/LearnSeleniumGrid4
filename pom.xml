@@ -15,40 +15,39 @@
 
 	<dependencies>
 
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>4.0.9</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.aventstack</groupId> -->
+<!-- 			<artifactId>extentreports</artifactId> -->
+<!-- 			<version>4.0.9</version> -->
+<!-- 		</dependency> -->
 
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>3.0.0</version>
-			<scope>test</scope>
+			<version>5.3.3</version>
+<!-- 			<scope>test</scope> -->
 		</dependency>
 
+	
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.opencsv</groupId> -->
+<!-- 			<artifactId>opencsv</artifactId> -->
+<!-- 			<version>3.3</version> -->
+<!-- 		</dependency> -->
 
-		<!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
-		<dependency>
-			<groupId>com.opencsv</groupId>
-			<artifactId>opencsv</artifactId>
-			<version>3.3</version>
-		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
-		<dependency>
-			<groupId>ru.yandex.qatools.ashot</groupId>
-			<artifactId>ashot</artifactId>
-			<version>1.5.3</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>ru.yandex.qatools.ashot</groupId> -->
+<!-- 			<artifactId>ashot</artifactId> -->
+<!-- 			<version>1.5.3</version> -->
+<!-- 		</dependency> -->
 
-		<!-- https://mvnrepository.com/artifact/com.github.jai-imageio/jai-imageio-core -->
-		<dependency>
-			<groupId>com.github.jai-imageio</groupId>
-			<artifactId>jai-imageio-core</artifactId>
-			<version>1.4.0</version>
-		</dependency>
+
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.github.jai-imageio</groupId> -->
+<!-- 			<artifactId>jai-imageio-core</artifactId> -->
+<!-- 			<version>1.4.0</version> -->
+<!-- 		</dependency> -->
 
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -66,114 +65,113 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-remote-driver</artifactId>
-			<version>3.14.0</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.seleniumhq.selenium</groupId> -->
+<!-- 			<artifactId>selenium-remote-driver</artifactId> -->
+<!-- 			<version>3.14.0</version> -->
+<!-- 		</dependency> -->
 
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-api</artifactId>
-			<version>3.14.0</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.seleniumhq.selenium</groupId> -->
+<!-- 			<artifactId>selenium-api</artifactId> -->
+<!-- 			<version>3.14.0</version> -->
+<!-- 		</dependency> -->
 
-		<!-- https://mvnrepository.com/artifact/jexcelapi/jxl -->
-		<dependency>
-			<groupId>jexcelapi</groupId>
-			<artifactId>jxl</artifactId>
-			<version>2.4.2</version>
-		</dependency>
+		
+<!-- 		<dependency> -->
+<!-- 			<groupId>jexcelapi</groupId> -->
+<!-- 			<artifactId>jxl</artifactId> -->
+<!-- 			<version>2.4.2</version> -->
+<!-- 		</dependency> -->
 
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>4.1.1</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.poi</groupId> -->
+<!-- 			<artifactId>poi</artifactId> -->
+<!-- 			<version>4.1.1</version> -->
+<!-- 		</dependency> -->
 
 
-		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
-			<version>2.13.2</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>log4j</groupId> -->
+<!-- 			<artifactId>log4j</artifactId> -->
+<!-- 			<version>1.2.17</version> -->
+<!-- 		</dependency> -->
 
-		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
-		<dependency>
-			<groupId>commons-logging</groupId>
-			<artifactId>commons-logging</artifactId>
-			<version>1.2</version>
-		</dependency>
+
+
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.logging.log4j</groupId> -->
+<!-- 			<artifactId>log4j-core</artifactId> -->
+<!-- 			<version>2.13.2</version> -->
+<!-- 		</dependency> -->
+
+
+<!-- 		<dependency> -->
+<!-- 			<groupId>commons-logging</groupId> -->
+<!-- 			<artifactId>commons-logging</artifactId> -->
+<!-- 			<version>1.2</version> -->
+<!-- 		</dependency> -->
 
 		<!-- Cucumber Dependencies -->
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-java</artifactId>
-			<version>1.2.5</version>
-			<scope>test</scope>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>info.cukes</groupId> -->
+<!-- 			<artifactId>cucumber-java</artifactId> -->
+<!-- 			<version>1.2.5</version> -->
+<!-- 			<scope>test</scope> -->
+<!-- 		</dependency> -->
 
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-testng</artifactId>
-			<version>1.2.5</version>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>junit</groupId>
-					<artifactId>junit</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>info.cukes</groupId> -->
+<!-- 			<artifactId>cucumber-testng</artifactId> -->
+<!-- 			<version>1.2.5</version> -->
+<!-- 			<scope>test</scope> -->
+<!-- 			<exclusions> -->
+<!-- 				<exclusion> -->
+<!-- 					<groupId>junit</groupId> -->
+<!-- 					<artifactId>junit</artifactId> -->
+<!-- 				</exclusion> -->
+<!-- 			</exclusions> -->
+<!-- 		</dependency> -->
 
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-core</artifactId>
-			<version>2.4.0</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>io.cucumber</groupId> -->
+<!-- 			<artifactId>cucumber-core</artifactId> -->
+<!-- 			<version>2.4.0</version> -->
+<!-- 		</dependency> -->
 
 
 		<!-- Galen Dependency -->
-		<dependency>
-			<groupId>com.galenframework</groupId>
-			<artifactId>galen-java-support</artifactId>
-			<version>2.3.7</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.galenframework</groupId> -->
+<!-- 			<artifactId>galen-java-support</artifactId> -->
+<!-- 			<version>2.3.7</version> -->
+<!-- 		</dependency> -->
 
-		<!-- Rest Assured Dependencies -->
-		<dependency>
-			<groupId>io.rest-assured</groupId>
-			<artifactId>rest-assured</artifactId>
-			<version>3.0.2</version>
-			<scope>test</scope>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>io.rest-assured</groupId> -->
+<!-- 			<artifactId>rest-assured</artifactId> -->
+<!-- 			<version>3.0.2</version> -->
+<!-- 			<scope>test</scope> -->
+<!-- 		</dependency> -->
 
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20180813</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.json</groupId> -->
+<!-- 			<artifactId>json</artifactId> -->
+<!-- 			<version>20180813</version> -->
+<!-- 		</dependency> -->
 
-		<dependency>
-			<groupId>com.googlecode.json-simple</groupId>
-			<artifactId>json-simple</artifactId>
-			<version>1.1.1</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.googlecode.json-simple</groupId> -->
+<!-- 			<artifactId>json-simple</artifactId> -->
+<!-- 			<version>1.1.1</version> -->
+<!-- 		</dependency> -->
 
 		<!-- Applitools Dependency -->
-		<dependency>
-			<groupId>com.applitools</groupId>
-			<artifactId>eyes-selenium-java3-jersey1x</artifactId>
-			<version>3.35.3</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.applitools</groupId> -->
+<!-- 			<artifactId>eyes-selenium-java3-jersey1x</artifactId> -->
+<!-- 			<version>3.35.3</version> -->
+<!-- 		</dependency> -->
 
 	</dependencies>
 

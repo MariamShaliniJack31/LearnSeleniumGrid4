@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+	<parameter name="browser1" value="chrome" />
+	<parameter name="browser2" value="firefox" />
+	<parameter name="browser3" value="edge" />
+
+	<test thread-count="5"  name="Test">
+		<classes>
+			<class name="SeleniumGrid.StandAlone_Parallel" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -195,7 +195,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
-							${basedir}/testNG.xml</suiteXmlFile>
+							${basedir}/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>
 

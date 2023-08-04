@@ -1,32 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5199" started-at="2023-08-03T12:23:14 EDT" finished-at="2023-08-03T12:23:19 EDT">
+  <suite name="Suite" duration-ms="22125" started-at="2023-08-04T13:54:55 EDT" finished-at="2023-08-04T13:55:17 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5199" started-at="2023-08-03T12:23:14 EDT" finished-at="2023-08-03T12:23:19 EDT">
-      <class name="SeleniumGrid.StandAlone_Parallel">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:SeleniumGrid.StandAlone_Parallel@670b40af]" name="setup" is-config="true" duration-ms="3179" started-at="2023-08-03T12:23:14 EDT" finished-at="2023-08-03T12:23:17 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="22125" started-at="2023-08-04T13:54:55 EDT" finished-at="2023-08-04T13:55:17 EDT">
+      <class name="SeleniumGrid.Edge">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SeleniumGrid.Edge@12f41634]" name="setup" is-config="true" duration-ms="2822" started-at="2023-08-04T13:55:00 EDT" finished-at="2023-08-04T13:55:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="maintest()[pri:0, instance:SeleniumGrid.StandAlone_Parallel@670b40af]" name="maintest" duration-ms="1724" started-at="2023-08-03T12:23:17 EDT" finished-at="2023-08-03T12:23:19 EDT">
+        <test-method status="PASS" signature="maintest()[pri:0, instance:SeleniumGrid.Edge@12f41634]" name="maintest" duration-ms="4521" started-at="2023-08-04T13:55:10 EDT" finished-at="2023-08-04T13:55:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- maintest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumGrid.StandAlone_Parallel@670b40af]" name="tearDown" is-config="true" duration-ms="233" started-at="2023-08-03T12:23:19 EDT" finished-at="2023-08-03T12:23:19 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumGrid.Edge@12f41634]" name="tearDown" is-config="true" duration-ms="862" started-at="2023-08-04T13:55:15 EDT" finished-at="2023-08-04T13:55:16 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumGrid.StandAlone_Parallel -->
+      </class> <!-- SeleniumGrid.Edge -->
+      <class name="SeleniumGrid.Chrome">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SeleniumGrid.Chrome@5bcea91b]" name="setup" is-config="true" duration-ms="5134" started-at="2023-08-04T13:54:55 EDT" finished-at="2023-08-04T13:55:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="maintest()[pri:0, instance:SeleniumGrid.Chrome@5bcea91b]" name="maintest" duration-ms="3861" started-at="2023-08-04T13:55:10 EDT" finished-at="2023-08-04T13:55:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumGrid.Chrome@5bcea91b]" name="tearDown" is-config="true" duration-ms="825" started-at="2023-08-04T13:55:14 EDT" finished-at="2023-08-04T13:55:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumGrid.Chrome -->
+      <class name="SeleniumGrid.Firefox">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SeleniumGrid.Firefox@46daef40]" name="setup" is-config="true" duration-ms="6531" started-at="2023-08-04T13:55:03 EDT" finished-at="2023-08-04T13:55:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="maintest()[pri:0, instance:SeleniumGrid.Firefox@46daef40]" name="maintest" duration-ms="4456" started-at="2023-08-04T13:55:10 EDT" finished-at="2023-08-04T13:55:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumGrid.Firefox@46daef40]" name="tearDown" is-config="true" duration-ms="1373" started-at="2023-08-04T13:55:16 EDT" finished-at="2023-08-04T13:55:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumGrid.Firefox -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

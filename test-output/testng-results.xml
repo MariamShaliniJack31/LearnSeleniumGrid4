@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3933" started-at="2023-08-07T12:17:14 EDT" finished-at="2023-08-07T12:17:18 EDT">
+  <suite name="Suite" duration-ms="9161" started-at="2023-08-07T12:49:52 EDT" finished-at="2023-08-07T12:50:01 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3933" started-at="2023-08-07T12:17:14 EDT" finished-at="2023-08-07T12:17:18 EDT">
+    <test name="Test" duration-ms="9161" started-at="2023-08-07T12:49:52 EDT" finished-at="2023-08-07T12:50:01 EDT">
       <class name="SeleniumGrid.Params_SA_Parallel">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:SeleniumGrid.Params_SA_Parallel@670b40af]" name="setup" is-config="true" duration-ms="2295" started-at="2023-08-07T12:17:14 EDT" finished-at="2023-08-07T12:17:17 EDT">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:SeleniumGrid.Params_SA_Parallel@3891771e]" name="setup" is-config="true" duration-ms="7201" started-at="2023-08-07T12:49:52 EDT" finished-at="2023-08-07T12:49:59 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="maintest()[pri:0, instance:SeleniumGrid.Params_SA_Parallel@670b40af]" name="maintest" duration-ms="1456" started-at="2023-08-07T12:17:17 EDT" finished-at="2023-08-07T12:17:18 EDT">
+        <test-method status="PASS" signature="maintest()[pri:0, instance:SeleniumGrid.Params_SA_Parallel@3891771e]" name="maintest" duration-ms="1707" started-at="2023-08-07T12:49:59 EDT" finished-at="2023-08-07T12:50:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- maintest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumGrid.Params_SA_Parallel@670b40af]" name="tearDown" is-config="true" duration-ms="142" started-at="2023-08-07T12:17:18 EDT" finished-at="2023-08-07T12:17:18 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumGrid.Params_SA_Parallel@3891771e]" name="tearDown" is-config="true" duration-ms="223" started-at="2023-08-07T12:50:01 EDT" finished-at="2023-08-07T12:50:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

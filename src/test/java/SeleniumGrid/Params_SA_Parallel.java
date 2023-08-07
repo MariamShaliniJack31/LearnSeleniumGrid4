@@ -15,13 +15,15 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 //C:\Users\mrufu\Downloads\SeleniumGrid4>java -jar selenium-server-4.11.0.jar standalone
 //First Run this command to start Selenium Grid on localhost:4444
 public class Params_SA_Parallel {
 
 	public static WebDriver driver;
 
-	@Parameters({"browser1"})
+	@Parameters({"browser3"})
 	@BeforeTest
 	public void setup(String browser) throws MalformedURLException {
 
@@ -48,7 +50,8 @@ public class Params_SA_Parallel {
 			
 			case "edge":
 				EdgeOptions eoptions = new EdgeOptions();
-				System.setProperty("webdriver.edge.driver", "C:\\Users\\mrufu\\Downloads\\SeleniumGrid4\\edgedriver.exe");
+				//System.setProperty("webdriver.edge.driver", "C:\\Users\\mrufu\\Downloads\\SeleniumGrid4\\edgedriver.exe");
+				WebDriverManager.edgedriver().arch64().setup();;
 				driver = new RemoteWebDriver(new URL(nodeURL), eoptions);
 				//driver = new ChromeDriver();
 				System.out.println("I AM IN EDGE");

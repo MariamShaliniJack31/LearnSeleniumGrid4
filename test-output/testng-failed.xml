@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
     <classes>
-      <class name="SeleniumGrid.StandAlone_Parallel">
+      <class name="SeleniumGrid.Firefox">
         <methods>
           <include name="maintest"/>
-          <include name="setup"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- SeleniumGrid.StandAlone_Parallel -->
+      </class> <!-- SeleniumGrid.Firefox -->
+      <class name="SeleniumGrid.Edge">
+        <methods>
+          <include name="maintest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SeleniumGrid.Edge -->
+      <class name="SeleniumGrid.Chrome">
+        <methods>
+          <include name="maintest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SeleniumGrid.Chrome -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

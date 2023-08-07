@@ -13,6 +13,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Firefox {
 
 	public static WebDriver driver;
@@ -25,7 +27,8 @@ public class Firefox {
 		//String nodeURL = "http://localhost:4444";
 		String nodeURL = "http://10.0.0.40:4444";
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\mrufu\\Downloads\\SeleniumGrid4\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "C:\\Users\\mrufu\\Downloads\\SeleniumGrid4\\geckodriver.exe");
+		WebDriverManager.firefoxdriver().arch64().setup();;
 		driver = new RemoteWebDriver(new URL(nodeURL), ffoptions);
 		//driver = new ChromeDriver();
 	}

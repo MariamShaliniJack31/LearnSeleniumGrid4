@@ -14,6 +14,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Edge {
 
 	public static WebDriver driver;
@@ -26,7 +28,8 @@ public class Edge {
 		//String nodeURL = "http://localhost:4444";
 		String nodeURL = "http://10.0.0.40:4444";
 		
-		System.setProperty("webdriver.edge.driver", "C:\\Users\\mrufu\\Downloads\\SeleniumGrid4\\edgedriver.exe");
+		//System.setProperty("webdriver.edge.driver", "C:\\Users\\mrufu\\Downloads\\SeleniumGrid4\\edgedriver.exe");
+		WebDriverManager.edgedriver().arch64().setup();;
 		driver = new RemoteWebDriver(new URL(nodeURL), eoptions);
 		//driver = new ChromeDriver();
 	}

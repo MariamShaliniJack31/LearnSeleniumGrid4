@@ -3,6 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)" parallel="classes">
     <classes>
+      <class name="SeleniumGrid.Firefox">
+        <methods>
+          <include name="maintest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SeleniumGrid.Firefox -->
       <class name="SeleniumGrid.Edge">
         <methods>
           <include name="maintest"/>
@@ -17,13 +24,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- SeleniumGrid.Chrome -->
-      <class name="SeleniumGrid.Firefox">
-        <methods>
-          <include name="maintest"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- SeleniumGrid.Firefox -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

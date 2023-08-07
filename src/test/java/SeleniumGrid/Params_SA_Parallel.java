@@ -17,17 +17,17 @@ import org.testng.annotations.Test;
 
 //C:\Users\mrufu\Downloads\SeleniumGrid4>java -jar selenium-server-4.11.0.jar standalone
 //First Run this command to start Selenium Grid on localhost:4444
-public class StandAlone_Parallel {
+public class Params_SA_Parallel {
 
 	public static WebDriver driver;
 
-	@Parameters("browser1")
+	@Parameters({"browser1"})
 	@BeforeTest
 	public void setup(String browser) throws MalformedURLException {
 
 
 		String nodeURL = "http://localhost:4444";
-
+		System.out.println(browser);
 		switch(browser)	{
 
 			case "chrome":

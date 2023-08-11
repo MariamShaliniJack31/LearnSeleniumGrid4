@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumGrid.StandAlone_Parallel">
+      <class name="SeleniumGrid.Params_Parallel">
         <methods>
-          <include name="maintest"/>
-          <include name="setup"/>
           <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="maintest"/>
         </methods>
-      </class> <!-- SeleniumGrid.StandAlone_Parallel -->
+      </class> <!-- SeleniumGrid.Params_Parallel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

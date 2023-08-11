@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" name="Suite">
+	
+	<test thread-count="5" parallel="tests" name="ChromeTest">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="SeleniumGrid.Params_Parallel" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" parallel="tests" name="FirefoxTest">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="SeleniumGrid.Params_Parallel" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" parallel="tests" name="EdgeTest">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="SeleniumGrid.Params_Parallel" />
+		</classes>
+	</test>
+	
+</suite> 
